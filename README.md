@@ -27,14 +27,14 @@ A simple yet effective **Spam Classifier Web App** built using **Machine Learnin
 ---
 
 ## 📂 Project Structure
-
+```
 📦 spam-classifier/
 ├── app.py # Main Streamlit application
 ├── model.pkl # Trained Naive Bayes model
 ├── vectorizer.pkl # TF-IDF vectorizer
 ├── requirements.txt # List of dependencies
 └── runtime.txt # Python version for deployment
-
+```
 
 ---
 
@@ -58,8 +58,10 @@ git clone https://github.com/BuiltByPurva/Spam-Classifier.git
 cd Spam-Classifier
 
 ### Step 2: Set Up the Environment
+```
 python -m venv venv
 venv\Scripts\activate   # For Windows
+```
 
 ### Step 3: Install Dependencies
 pip install -r requirements.txt
@@ -75,13 +77,16 @@ Your project is deployed on Streamlit Community Cloud and can be accessed here:
 
 
 ### 📬 Example Output
+```
 Input:
 Congratulations! You've won a free vacation to the Bahamas. Reply now!
-Prediction: 🚫 Spam
-
+Prediction: Spam 🚫
+```
+```
 Input:
 Hey, can we meet at 7 PM for dinner?
-Prediction: ✅ Not Spam
+Prediction: Not Spam ✅
+```
 
 
 ## 🙋‍♀️ Author

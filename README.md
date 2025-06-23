@@ -64,10 +64,14 @@ venv\Scripts\activate   # For Windows
 ```
 
 ### Step 3: Install Dependencies
+```
 pip install -r requirements.txt
+```
 
 ### Step 4: Step 5: Run the App Locally
+```
 streamlit run app.py
+```
 
 
 ## 🌐 Live Demo
